@@ -1,4 +1,4 @@
-update=Fri 02 Jun 2017 06:35:29 PM -03
+update=Sun 04 Jun 2017 08:46:02 PM -03
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=/home/h/projects/kicad-lib-minicircuits/library/mc-amplifiers
 LibName31=rfcom
+LibName32=/home/h/projects/kicad-lib-minicircuits/library/mc-chokes

@@ -10,6 +10,7 @@ amplifier from [Mini-Circuits®](http://www.minicircuits.com).
 
 ## project structure
 
+```
 .
 ├── 3d_models
 ├── datasheets
@@ -22,3 +23,4 @@ amplifier from [Mini-Circuits®](http://www.minicircuits.com).
 ├── lib_schm
 ├── pdf
 └── README.md
+```

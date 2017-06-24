@@ -453,12 +453,7 @@
       (net 4 "Net-(C2-Pad2)"))
     (pad 4 smd rect (at -2.5146 0 270) (size 2.286 1.016) (layers F.Cu F.Paste F.Mask)
       (net 6 GND))
-    (model /home/h/projects/kicad-lib-minicircuits/modules/MiniCircuits.3dshapes/VV105.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model /home/h/projects/kicad-lib-minicircuits/modules/MiniCircuits.3dshapes/VV105.wrl
+    (model /home/h/projects/era-5_rf_amplifier_50MHz/3d_models/VV105.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

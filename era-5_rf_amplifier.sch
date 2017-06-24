@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:era-5_rf_amplifier
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,7 +32,6 @@ LIBS:valves
 LIBS:mc-amplifiers
 LIBS:rfcom
 LIBS:mc-chokes
-LIBS:era-5_rf_amplifier-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -41,7 +41,7 @@ Title "ERA-5 amplifier"
 Date "2017-06-07"
 Rev ""
 Comp ""
-Comment1 ""
+Comment1 "Author: Heitor P. de Bittencourt"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -52,7 +52,7 @@ U 1 1 5931B134
 P 2850 2800
 F 0 "C1" H 2875 2900 50  0000 L CNN
 F 1 "0.1µF" H 2875 2700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 2888 2650 50  0001 C CNN
+F 2 "lib_fp:C_1206_HandSoldering" H 2888 2650 50  0001 C CNN
 F 3 "" H 2850 2800 50  0001 C CNN
 	1    2850 2800
 	0    1    1    0   
@@ -63,7 +63,7 @@ U 1 1 5931B1E4
 P 4800 2800
 F 0 "C2" H 4825 2900 50  0000 L CNN
 F 1 "0.1µF" H 4825 2700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4838 2650 50  0001 C CNN
+F 2 "lib_fp:C_1206_HandSoldering" H 4838 2650 50  0001 C CNN
 F 3 "" H 4800 2800 50  0001 C CNN
 	1    4800 2800
 	0    1    1    0   
@@ -74,7 +74,7 @@ U 1 1 5931B2E5
 P 4500 2500
 F 0 "L1" V 4450 2500 50  0000 C CNN
 F 1 "1.59µH" V 4575 2500 50  0000 C CNN
-F 2 "Inductors_SMD:L_1812_HandSoldering" H 4500 2500 50  0001 C CNN
+F 2 "lib_fp:L_1812_HandSoldering" H 4500 2500 50  0001 C CNN
 F 3 "" H 4500 2500 50  0001 C CNN
 	1    4500 2500
 	1    0    0    -1  
@@ -85,7 +85,7 @@ U 1 1 5931B3DD
 P 5200 1700
 F 0 "R2" V 5280 1700 50  0000 C CNN
 F 1 "220R" V 5200 1700 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 5130 1700 50  0001 C CNN
+F 2 "lib_fp:R_1206_HandSoldering" V 5130 1700 50  0001 C CNN
 F 3 "" H 5200 1700 50  0001 C CNN
 	1    5200 1700
 	0    1    1    0   
@@ -96,7 +96,7 @@ U 1 1 5931B444
 P 5200 1500
 F 0 "R1" V 5280 1500 50  0000 C CNN
 F 1 "220R" V 5200 1500 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 5130 1500 50  0001 C CNN
+F 2 "lib_fp:R_1206_HandSoldering" V 5130 1500 50  0001 C CNN
 F 3 "" H 5200 1500 50  0001 C CNN
 	1    5200 1500
 	0    1    1    0   
@@ -107,7 +107,7 @@ U 1 1 5931B556
 P 5800 1850
 F 0 "C3" H 5825 1950 50  0000 L CNN
 F 1 "0.1µF" H 5825 1750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5838 1700 50  0001 C CNN
+F 2 "lib_fp:C_1206_HandSoldering" H 5838 1700 50  0001 C CNN
 F 3 "" H 5800 1850 50  0001 C CNN
 	1    5800 1850
 	1    0    0    -1  
@@ -155,7 +155,7 @@ U 1 1 5931B836
 P 1850 2800
 F 0 "J1" H 1850 3050 50  0000 C CNN
 F 1 "CONN_01X04" V 1950 2800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 1850 2800 50  0001 C CNN
+F 2 "lib_fp:Pin_Header_Straight_1x04_Pitch2.54mm" H 1850 2800 50  0001 C CNN
 F 3 "" H 1850 2800 50  0001 C CNN
 	1    1850 2800
 	-1   0    0    1   
@@ -166,7 +166,7 @@ U 1 1 5931B8CE
 P 5650 3550
 F 0 "J2" H 5650 3800 50  0000 C CNN
 F 1 "CONN_01X04" V 5750 3550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 5650 3550 50  0001 C CNN
+F 2 "lib_fp:Pin_Header_Straight_1x04_Pitch2.54mm" H 5650 3550 50  0001 C CNN
 F 3 "" H 5650 3550 50  0001 C CNN
 	1    5650 3550
 	0    1    1    0   
@@ -263,7 +263,7 @@ U 1 1 5931DAC3
 P 3700 2800
 F 0 "U1" H 3700 3300 60  0000 C CNN
 F 1 "ERA-5+" H 3700 3200 60  0000 C CNN
-F 2 "MiniCircuits:VV105" H 3700 2800 60  0001 C CNN
+F 2 "lib_fp:VV105" H 3700 2800 60  0001 C CNN
 F 3 "" H 3700 2800 60  0000 C CNN
 	1    3700 2800
 	1    0    0    -1  
